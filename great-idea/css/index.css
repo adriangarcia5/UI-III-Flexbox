@@ -64,3 +64,132 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+header {
+    display: flex;
+    align-items: center; 
+	justify-content: space-between;
+	margin-top: 25px;
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+header nav a {
+    margin-right: 65px;
+    font-size: 14px;
+    color: gray;
+    text-decoration: none;
+}
+.cta{
+	margin-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center; 
+    justify-content: space-around;
+}
+.cta .cta-text{
+	font-size: 70px;
+    text-align: center;
+}
+.top-content{
+	padding-top: 45px;
+	border-top: 1px solid black;
+	display:flex;
+	flex-direction: column-
+}
+.bottom-content {
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;   
+}
+.contact {
+    margin-top: 45px;
+    border-top: 1px solid black;
+    padding: 39px 0px 0;
+}
+footer {
+    margin: 32px 0;
+    text-align: center;
+    font-size: 14px;
+}
+body{
+	margin:0 18%;
+}
+
+
+
+
+/* STYLES FOR SERVICE PAGE ONLY */
+
+
+.services-header-img {
+	margin: 20px 0px 20px;
+}
+
+.top-service-content h2 {
+	font-size: 25px;
+}
+
+.top-service-content p {
+	margin-bottom: 30px;
+}
+
+.middle-service-content {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	padding: 30px 0px 30px;
+
+}
+
+p {
+	font-size: 15px;
+	line-height: 2;
+}
+
+.box-section {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.info-box {
+	border: 1px solid black;
+	background: #e5e5e5;
+	margin: 15px;
+	padding: 20px;
+}
+
+.header-content {
+	display: flex;
+	flex-direction: column;
+}
+
+.learn-more {
+	background: white;
+	vertical-align: top;
+	margin-top: 20px;
+	padding: 10px 40px;
+	font-size: 15px;
+	border: 1px solid black;
+	border-radius: 8px;
+	cursor: pointer;
+}
+
+.bottom-service-content{
+	padding-top: 35px;
+	display: flex;
+	flex-direction: row;
+}
+
+.services-info-img {
+	padding-left: 20px;
+}
+
+
+ul {
+	margin-top: 20px;
+	font-size: 18px;
+	line-height: 2;
+	list-style-type: square;
+	padding-left: 20px;
+}
